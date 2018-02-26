@@ -1,0 +1,19 @@
+{
+  "name": "apiapp",
+  "version": "1.0.0",
+  "description": "Simple node.js API.",
+  "main": "index.js",
+  "scripts": {
+	  "dev": "nodemon server.js"
+  },
+  "author": "Djuro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
